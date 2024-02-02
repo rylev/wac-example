@@ -1,0 +1,17 @@
+[package]
+name = "greeter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wit-bindgen = { version = "0.16.0", default-features = false, features = [
+    "realloc",
+] }
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.component]
+package = "example:greeter"
+
+[package.metadata.component.dependencies]

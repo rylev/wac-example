@@ -1,0 +1,6 @@
+package example:greeter;
+
+world greeter {
+    import hello: func() -> string;
+    export greet: func() -> string;
+}
