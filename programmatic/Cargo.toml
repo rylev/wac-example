@@ -1,0 +1,8 @@
+[package]
+name = "programmatic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wac-graph = { git = "https://github.com/peterhuene/wac", branch = "api" }
+wac-types = { git = "https://github.com/peterhuene/wac", branch = "api" }
